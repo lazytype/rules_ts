@@ -1,0 +1,8 @@
+load("//:defs.bzl", "opinionated_ts_project")
+
+opinionated_ts_project(
+    name = "backend",
+    deps = [
+        "//shared/types",
+    ],
+)

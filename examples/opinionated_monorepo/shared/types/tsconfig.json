@@ -1,0 +1,12 @@
+// Generated, DO NOT EDIT MANUALLY. To update, run "bazel run //shared/types:types_tsconfig.update"
+{
+  "compilerOptions": {
+    "composite": true,
+    "paths": {
+      "*": [
+        "../../*"
+      ]
+    }
+  },
+  "extends": "../../tsconfig.base.json"
+}
